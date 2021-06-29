@@ -16,4 +16,9 @@ public class GreetingController {
 	public String greeting() {
 		return "hello";
 	}
+	
+	@GetMapping("/greeting2")
+	public String greeting2() {
+		return "hello";
+	}	
 }
